@@ -41,7 +41,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #526868;
+    background-color: #bd5757;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     left: 0;
@@ -75,4 +75,49 @@ main {
 footer {
     background-color: #bd5757;
     width: 100%;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+
+    }
+
+    #logo {
+        font-size: ;
+        line-height: ;
+        margin: 1 1.5rem;
+    }
+
+ /* Maint content*/
+ main {
+    /* Push main content down to accomodate larger header */
+    margin-top: 79px;
+}   
+}
+
+/* Larger devices (laptops and desktops, 992px and up */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
 }
