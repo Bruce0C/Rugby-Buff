@@ -1,4 +1,29 @@
 /* General styles */
+body { 
+    background-color: #ffffff;
+}
+
 /* Header */
+Header {
+    background-color: #bd5757;
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    
+}
+
 /* Main content */
+main {
+    
+    /* make main element take up surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
 /* Footer */
+footer {
+    background-color: #bd5757;
+    ;
+}
