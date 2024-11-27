@@ -1,3 +1,10 @@
+/* Asterisk wild card selectir to overide default styles added by browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box box-sizing: border-box;
+}
+
 /* General styles */
 body {
     background-color: #ffffff;
@@ -91,6 +98,9 @@ main {
 }
 
 /* Footer */
+footer ul{
+    list-style-type: none;
+}
 #social-networks {
     text-align: center;
     padding: 20px 0;
