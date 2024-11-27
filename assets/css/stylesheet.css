@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    text-align: center;
     /* Generic project styles*/
     background-color: #526868;
     color: #ffffff;
@@ -126,6 +127,51 @@ main {
 }
 
 /*Tournaments section*/
+.tornaments-container {
+    border: 2px solid #ececec;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 5px;
+}
+
+.world-cup {
+
+    text-align: center;
+    flex-direction: column;
+    flex: 1 0 250px;
+    margin: 10px;
+    object-fit: contain;
+}
+
+.six-nations {
+
+    text-align: center;
+    flex-direction: column;
+    flex: 1 0 250px;
+    margin: 10px;
+    object-fit: contain;
+}
+
+.autumn-nations {
+
+    text-align: center;
+    flex-direction: column;
+    flex: 1 0 250px;
+    margin: 10px;
+    object-fit: contain;
+}
+
+.trophies {
+    object-fit: contain;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+}
 
 /*Teams section*/
 
