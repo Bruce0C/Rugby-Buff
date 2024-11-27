@@ -91,16 +91,46 @@ nav {
 
 /* Main content */
 main {
-
     /* make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 60px;
 }
 
+/* History Section */
+.history-container {
+    background-color: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+.history-paragraph {
+    color: #ffffff;
+    text-align: center;
+    flex: 1 0 250px;
+    margin: 10px;
+}
+
+.old-picture {
+    text-align: center;
+    flex: 1 20 100px;
+    height: 10%;
+    width: 10%;
+}
+
+#history-img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+
 /* Footer */
-footer ul{
+footer ul {
+    background-color: #bd5757;
     list-style-type: none;
 }
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
