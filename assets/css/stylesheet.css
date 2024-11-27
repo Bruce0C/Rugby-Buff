@@ -18,6 +18,10 @@ body {
     color: #ffffff;
 }
 
+br{
+    color: #ffffff;
+}
+
 /* Header */
 header {
     background-color: #bd5757;
@@ -200,33 +204,40 @@ th,td {
 }
 
 /* Pitch section */
-.pitch-container{
+.pitch-container {
     display: block;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 2px;
 }
 
-#horizontal-pitch-img{
+#horizontal-pitch-img {
     height: 100%;
     width: 100%;
     object-fit: scale-down;
 }
+
 /* Officials section */
-.officials-container{
+.officials-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 2px;
 }
 
-#officials-img{
+#officials-img {
     height: 50%;
     width: 50%;
     object-fit: contain;
 }
-/* Positions section */
 
+/* Positions section */
+.positions-table {
+    border-radius: 5px;
+    background-color: #eeeeee3d;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* Footer */
