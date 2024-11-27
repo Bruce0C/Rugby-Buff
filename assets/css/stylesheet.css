@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
     /* Generic project styles*/
     background-color: #526868;
     color: #ffffff;
@@ -28,7 +29,18 @@ header a {
     color: inherit;
 }
 
-h1{
+.logo-nav{
+    flex: 1 20 100px;
+    height: 10%;
+    width: 10%;
+}
+
+#logo-image {
+    height: 50px;
+    width: 50px;
+}
+
+h1 {
     font-family: ;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -45,12 +57,14 @@ h1{
 
 }
 
+
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #bd5757;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #636363d5;
     left: 0;
     padding: 0 1rem;
     display: none;
@@ -75,7 +89,7 @@ main {
 
     /* make main element take up surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 60px;
 }
 
 /* Footer */
@@ -86,6 +100,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -114,11 +129,11 @@ footer {
         margin: 1 1.5rem;
     }
 
- /* Maint content*/
- main {
-    /* Push main content down to accomodate larger header */
-    margin-top: 79px;
-}   
+    /* Maint content*/
+    main {
+        /* Push main content down to accomodate larger header */
+        margin-top: 79px;
+    }
 }
 
 /* Larger devices (laptops and desktops, 992px and up */

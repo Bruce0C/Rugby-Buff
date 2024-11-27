@@ -22,15 +22,18 @@
     <!-- Header-->
     <header>
         <a href="index.html">
-            <h1>The Rugby Buff</h1>
+            <h1 id="logo">The Rugby Buff</h1>
         </a>
         <mav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="how-to-play.html">How To Play</a></li>
-                <li><a href="laws.html">Laws</a></li>
-                <li><a href="kit.html">Kit</a></li>
-            </ul>
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">X</label>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="how-to-play.html">How To Play</a></li>
+                    <li><a href="laws.html">Laws</a></li>
+                    <li><a href="kit.html">Kit</a></li>
+                </ul>
         </mav>
     </header>
 
@@ -40,7 +43,17 @@
     </main>
     <!--Footer-->
     <footer>
-        Footer
+        <ul id="social-networks">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="visit our facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"
+                        style="color: #000000;"></i>Facebook</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="visit our instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"
+                        style="color: #000000;"></i>Instagram</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"
+                        style="color: #000000;"></i>Youtube</a></li>
+        </ul>
     </footer>
 </body>
 
