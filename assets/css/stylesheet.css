@@ -24,6 +24,23 @@ section {
     margin: 10px;
 }
 
+table {
+    border-radius: 5px;
+    background-color: #25252573;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+th {
+    background-color: #883c3c56;
+}
+
+td {
+    background-color: #25252573;
+}
+
+
 /* Header */
 header {
     background-color: #bd5757;
@@ -111,7 +128,6 @@ main {
     flex-wrap: wrap;
     padding: 2px;
     border-radius: 5px;
-    background-color: #25252573;
     margin: 10px;
 }
 
@@ -137,17 +153,15 @@ main {
 
 /*Tournaments section*/
 .tornaments-container {
-    border: 2px solid #ececec;
-    background-color: #ededed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     padding: 5px;
+    background-color: none;
 }
 
 .world-cup {
-
     text-align: center;
     flex-direction: column;
     flex: 1 0 250px;
@@ -191,22 +205,6 @@ main {
 .table-container {
     justify-content: center;
     text-align: center;
-}
-
-table {
-    border-radius: 5px;
-    background-color: #25252573;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-th {
-    background-color: #883c3c56;
-}
-
-td {
-    background-color: #25252573;
 }
 
 /* Pitch section */
@@ -282,6 +280,22 @@ td {
     text-align: center;
     flex: 1 0 250px;
     margin: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.yellow-card:hover {
+    box-shadow: 0 8px 16px 0 #ffc40041;
+}
+
+.red-card:hover {
+    box-shadow: 0 8px 16px 0 #ff000041;
+}
+section:hover {
+    box-shadow: 0 8px 16px 0 #00000041;
+}
+
+table:hover {
+    box-shadow: 0 8px 16px 0 #00000041;
 }
 
 /* Footer */
