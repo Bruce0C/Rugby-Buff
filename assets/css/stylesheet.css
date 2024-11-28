@@ -195,7 +195,11 @@ table {
 
 }
 
-th,td {
+th {
+    background-color: #883c3c56;
+}
+
+td {
     background-color: #526868;
 }
 
