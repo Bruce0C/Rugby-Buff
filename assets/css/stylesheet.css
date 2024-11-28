@@ -106,6 +106,7 @@ main {
     padding: 2px;
     border-radius: 5px;
     background-color: #25252573;
+    margin: 10px;
 }
 
 .history-paragraph {
@@ -189,7 +190,7 @@ main {
 
 table {
     border-radius: 5px;
-    background-color: #eeeeee3d;
+    background-color: #25252573;
     margin-left: auto;
     margin-right: auto;
 
@@ -200,7 +201,7 @@ th {
 }
 
 td {
-    background-color: #526868;
+    background-color: #25252573;
 }
 
 /* Pitch section */
@@ -237,18 +238,21 @@ td {
 #sportsmanship {
     background-color: #25252573;
     border-radius: 5px;
+    margin: 10px;
 }
 
 /* General play section */
 #general-play {
     background-color: #25252573;
     border-radius: 5px;
+    margin: 10px;
 }
 
 /* Card system section */
 #card-system {
     background-color: #25252573;
     border-radius: 5px;
+    margin: 10px;
 
 }
 
