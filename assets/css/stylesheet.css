@@ -233,6 +233,49 @@ td {
 
 /* Positions section */
 
+/* Sportsmanship section */
+#sportsmanship {
+    background-color: #25252573;
+    border-radius: 5px;
+}
+
+/* General play section */
+#general-play {
+    background-color: #25252573;
+    border-radius: 5px;
+}
+
+/* Card system section */
+#card-system {
+    background-color: #25252573;
+    border-radius: 5px;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: #25252573;
+    border-radius: 5px;
+
+}
+
+.yellow-card {
+    background-color: #ffd900;
+    text-align: center;
+    flex: 1 0 250px;
+    margin: 10px;
+}
+
+.red-card {
+    background-color: #ff0000ec;
+    text-align: center;
+    flex: 1 0 250px;
+    margin: 10px;
+}
+
 /* Footer */
 footer ul {
     background-color: #bd5757;
