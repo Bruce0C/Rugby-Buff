@@ -18,6 +18,12 @@ body {
     color: #ffffff;
 }
 
+section {
+    background-color: #25252573;
+    border-radius: 5px;
+    margin: 10px;
+}
+
 /* Header */
 header {
     background-color: #bd5757;
@@ -137,7 +143,6 @@ main {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-
     padding: 5px;
 }
 
@@ -253,7 +258,6 @@ td {
     background-color: #25252573;
     border-radius: 5px;
     margin: 10px;
-
 }
 
 .card-container {
@@ -261,20 +265,20 @@ td {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 5px;
-    background-color: #25252573;
     border-radius: 5px;
-
 }
 
 .yellow-card {
-    background-color: #ffd900;
+    background-color: #ffd90071;
+    border-radius: 5px;
     text-align: center;
     flex: 1 0 250px;
     margin: 10px;
 }
 
 .red-card {
-    background-color: #ff0000ec;
+    background-color: #ff000052;
+    border-radius: 5px;
     text-align: center;
     flex: 1 0 250px;
     margin: 10px;
