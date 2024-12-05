@@ -233,6 +233,8 @@ main {
     height: 50%;
     width: 50%;
     object-fit: contain;
+    margin: 0;
+    
 }
 
 /* Positions section */
