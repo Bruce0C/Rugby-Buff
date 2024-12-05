@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    box box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* General styles */
@@ -39,7 +39,6 @@ th {
 td {
     background-color: #25252573;
 }
-
 
 /* Header */
 header {
@@ -92,6 +91,7 @@ h1 {
 nav {
     position: absolute;
     background-color: #bd5757;
+    box-shadow: 0 2px 2px #3a3a3a;
     width: 100%;
     box-shadow: 0 2px 2px #636363d5;
     left: 0;
@@ -209,16 +209,54 @@ main {
 
 /* Pitch section */
 .pitch-container {
-    display: block;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 2px;
+    padding: 1rem;
 }
 
-#horizontal-pitch-img {
-    height: 100%;
-    width: 100%;
-    object-fit: scale-down;
+.slider-wrapper {
+    position: relative;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 15/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 8px 16px 0 #00000041;
+    border-radius: 0.5rem;
+   
+}
+
+.slide img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+
+    border-radius: 50%;
+    background-color: #bd5757;
+    opacity: 0.75;
+    transition: opacity ease 0.25s;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
 }
 
 /* Officials section */
@@ -234,7 +272,7 @@ main {
     width: 50%;
     object-fit: contain;
     margin: 0;
-    
+
 }
 
 /* Positions section */
@@ -292,6 +330,7 @@ main {
 .red-card:hover {
     box-shadow: 0 8px 16px 0 #ff000041;
 }
+
 section:hover {
     box-shadow: 0 8px 16px 0 #00000041;
 }
