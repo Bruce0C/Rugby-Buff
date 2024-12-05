@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-padding-top: 300px;
+}
 
 /* General styles */
 body {
@@ -248,9 +251,6 @@ main {
     width: 0.5rem;
     height: 0.5rem;
     text-decoration: none;
-
-    border-radius: 50%;
-    
     opacity: 0.75;
     transition: opacity ease 0.25s;
 }
