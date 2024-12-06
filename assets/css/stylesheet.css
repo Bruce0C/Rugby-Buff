@@ -231,11 +231,18 @@ main {
     border-radius: 0.5rem;
 }
 
-.slide img {
+.slide-imgs {
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
 }
+
+.slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+
 
 .slider-nav {
     display: flex;
