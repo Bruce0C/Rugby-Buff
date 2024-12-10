@@ -4,7 +4,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-padding-top: 300px;
 }
 
@@ -268,51 +269,37 @@ main {
 
 /* Officials section */
 .officials-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 2px;
-}
-
-
-
-#officials-img {
-    height: 50%;
-    width: 50%;
-    object-fit: contain;
-    margin: 0;
-
-}
-/*
-.history-container {
     background-color: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding: 2px;
     border-radius: 5px;
     margin: 10px;
 }
 
-.history-paragraph {
+.officials-paragraph {
     color: #ffffff;
     text-align: center;
     flex: 1 0 250px;
     margin: 10px;
 }
 
-.old-picture {
+.img-wraper {
     text-align: center;
     flex: 1 20 100px;
     height: 10%;
     width: 10%;
+    background-color: #ffffffc5;
 }
 
-#history-img {
+#officials-img {
     height: 100%;
     width: 100%;
     object-fit: scale-down;
-*/
+    margin: 0;
+}
+
 /* Positions section */
 
 /* Sportsmanship section */
