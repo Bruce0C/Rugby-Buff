@@ -300,7 +300,27 @@ main {
 }
 
 /* Positions section */
+.positions-container{
+    background-color: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 10px;
+}
 
+.positions-picture {
+    text-align: center;
+    flex: 1 20 100px;
+}
+
+#positions-img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    border-radius: 5%;
+}
 /* Sportsmanship and Ethos section */
 #sportsmanship {
     background-color: #25252573;
