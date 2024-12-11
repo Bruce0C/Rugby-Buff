@@ -290,7 +290,6 @@ main {
     flex: 1 20 100px;
     height: 10%;
     width: 10%;
-    background-color: #ffffffc5;
 }
 
 #officials-img {
@@ -302,12 +301,18 @@ main {
 
 /* Positions section */
 
-/* Sportsmanship section */
+/* Sportsmanship and Ethos section */
 #sportsmanship {
     background-color: #25252573;
     border-radius: 5px;
     margin: 10px;
 }
+
+.logo-link {
+   background-color: #bd5757;
+   border-radius: 10%;}
+
+
 
 /* General play section */
 #general-play {
