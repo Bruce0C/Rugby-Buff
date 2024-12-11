@@ -224,7 +224,7 @@ main {
 
 .slider {
     display: flex;
-    aspect-ratio: 17/10;
+    aspect-ratio: 16/9;
     overflow-x: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
