@@ -308,9 +308,14 @@ main {
     margin: 10px;
 }
 
+.logo {
+    height: 80%;
+    weight: 80%;
+}
+
 .logo-link {
-   background-color: #bd5757;
-   border-radius: 10%;}
+    box-shadow: 0 8px 16px 0 #00000041;
+}
 
 
 
