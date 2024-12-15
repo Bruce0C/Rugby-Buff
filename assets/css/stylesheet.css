@@ -382,6 +382,43 @@ main {
     margin: 10px;
 }
 
+/* Kit section */
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card{
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 0 250px;
+    margin: 10px;
+}
+
+.card-text{
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 0 250px;
+    margin: 10px;
+}
+
+.img-wrapper{
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 0 250px;
+    margin: 10px;
+}
+
+#img{
+    width: 50%;
+    height: 50%;
+    object-fit: scale-down;
+}
+
 /* On mouse-over, add a deeper shadow */
 .yellow-card:hover {
     box-shadow: 0 8px 16px 0 #ffc40041;
