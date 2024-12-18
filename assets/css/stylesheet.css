@@ -42,12 +42,13 @@ section {
     margin: 10px;
 }
 
+
+
 table {
     border-radius: 5px;
     background-color: #25252573;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 th {
@@ -60,12 +61,12 @@ td {
     padding: 15px;
 }
 
-.forwards{
+.forwards {
     background-color: #bd575796;
     border-radius: 10px;
 }
 
-.backs{
+.backs {
     background-color: #526868;
     border-radius: 10px;
     text-align: center;
@@ -400,6 +401,8 @@ main {
     text-align: center;
     flex: 1 0 250px;
     margin: 10px;
+    text-align: left;
+    padding: 15px;
 }
 
 .red-card {
@@ -408,6 +411,8 @@ main {
     text-align: center;
     flex: 1 0 250px;
     margin: 10px;
+    text-align: left;
+    padding: 15px;
 }
 
 /* Kit section */
