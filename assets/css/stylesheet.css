@@ -28,7 +28,7 @@ body {
 
 h2 {
     color: #ffffff;
-   /* text-shadow: 0 0 1px #000000af;*/
+    /* text-shadow: 0 0 1px #000000af;*/
     -webkit-text-stroke: 1px #ffffff;
     background-color: #b64b4b9d;
     border-radius: 5px;
@@ -56,6 +56,19 @@ th {
 
 td {
     background-color: #25252573;
+    text-align: left;
+    padding: 15px;
+}
+
+.forwards{
+    background-color: #bd575796;
+    border-radius: 10px;
+}
+
+.backs{
+    background-color: #526868;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* Header */
@@ -89,7 +102,6 @@ header a {
 }
 
 h1 {
-    font-family: ;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -339,7 +351,6 @@ main {
 }
 
 /* Sportsmanship and Ethos section */
-
 .sportsmanship-container {
     background-color: none;
     display: flex;
@@ -436,7 +447,7 @@ main {
     border-radius: 10px;
 }
 
-#img2{
+#img2 {
     width: 100%;
     height: 100%;
     object-fit: scale-down;
