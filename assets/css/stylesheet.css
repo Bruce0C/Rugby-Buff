@@ -436,6 +436,13 @@ main {
     border-radius: 10px;
 }
 
+#img2{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    border-radius: 10px;
+}
+
 /* On mouse-over, add a deeper shadow */
 .yellow-card:hover {
     box-shadow: 0 8px 16px 0 #ffc40041;
