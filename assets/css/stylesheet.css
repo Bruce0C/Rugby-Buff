@@ -182,7 +182,7 @@ main {
 }
 
 /*Tournaments section*/
-.tornaments-container {
+ .tornaments-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,7 +213,6 @@ main {
 }
 
 .autumn-nations {
-
     text-align: center;
     flex-direction: column;
     flex: 1 0 250px;
@@ -322,7 +321,7 @@ main {
 */
 
 /* Positions section */
-.positions-container {
+/*.positions-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -334,11 +333,11 @@ main {
 .positions-picture {
     text-align: center;
     flex: 1 20 100px;
-}
+}*/
 
 #positions-img {
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     object-fit: scale-down;
     border-radius: 5%;
 }
@@ -409,7 +408,6 @@ main {
     flex-wrap: wrap;
     padding: 5px;
     border-radius: 5px;
-
 }
 
 .card {
