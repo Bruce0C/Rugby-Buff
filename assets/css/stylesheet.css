@@ -182,7 +182,7 @@ main {
 }
 
 /*Tournaments section*/
- .tornaments-container {
+.tornaments-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -524,4 +524,17 @@ footer ul {
         border-bottom: 1px solid #ffffff;
     }
 
+}
+
+/* Small devices orientation lock*/
+@media screen and (min-width: 1px) and (max-width: 430px) and (orientation: landscape) {
+    #how-to-play-page {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
 }
