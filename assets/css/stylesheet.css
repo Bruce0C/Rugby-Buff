@@ -42,8 +42,6 @@ section {
     margin: 10px;
 }
 
-
-
 table {
     border-radius: 5px;
     background-color: #25252573;
@@ -371,6 +369,8 @@ main {
     text-align: center;
     flex: 1 20 100px;
     box-shadow: 0 8px 16px 0 #00000041;
+    width: 400px;
+    height: 400px;
 }
 
 /* General play section */
@@ -422,12 +422,13 @@ main {
     flex-wrap: wrap;
     padding: 5px;
     border-radius: 5px;
+
 }
 
 .card {
     border-radius: 5px;
     text-align: center;
-    flex: 1 0 250px;
+    flex: 1 0 200px;
     margin: 10px;
 }
 
