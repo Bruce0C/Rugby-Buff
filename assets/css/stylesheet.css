@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Prevent page from moving when image nav link is selected */
-html {
-    scroll-padding-top: 300px;
-}
-
 /* General styles */
 body {
     background-image: url(./../images/background.png);
@@ -40,6 +35,11 @@ section {
     background-color: #25252573;
     border-radius: 5px;
     margin: 10px;
+}
+
+.table-container {
+    justify-content: center;
+    text-align: center;
 }
 
 table {
@@ -231,14 +231,8 @@ main {
     margin: 10px;
 }
 
-/*Teams section*/
-.table-container {
-    justify-content: center;
-    text-align: center;
-}
-
-/* Pitch section */
-.pitch-container {
+/* Carousel effect */
+/*.pitch-container {
     padding: 1rem;
 }
 
@@ -291,10 +285,10 @@ main {
 
 .slider-nav a:hover {
     opacity: 1;
-}
+}*/
 
 /* Officials section */
-.officials-container {
+/*.officials-container {
     background-color: none;
     display: flex;
     justify-content: flex-start;
@@ -325,10 +319,10 @@ main {
     margin: 0;
     border-radius: 10px;
 }
+*/
 
 /* Positions section */
 .positions-container {
-    background-color: none;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -373,13 +367,6 @@ main {
     height: 400px;
 }
 
-/* General play section */
-#general-play {
-    background-color: #25252573;
-    border-radius: 5px;
-    margin: 10px;
-}
-
 /* Card system section */
 #card-system {
     background-color: #25252573;
@@ -415,7 +402,7 @@ main {
     padding: 15px;
 }
 
-/* Kit section */
+/* Card layout*/
 .card-container {
     display: flex;
     justify-content: space-evenly;
@@ -523,8 +510,6 @@ footer ul {
     }
 
     #logo {
-        font-size: ;
-        line-height: ;
         margin: 1 1.5rem;
     }
 
