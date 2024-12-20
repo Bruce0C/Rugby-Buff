@@ -399,7 +399,8 @@ footer ul {
     }
 
     #logo {
-        margin: 1 1.5rem;
+        margin: 1.5rem;
+        margin-top: 1;
     }
 
     /* Maint content*/
