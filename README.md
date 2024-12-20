@@ -43,14 +43,18 @@ The rugby buff is a basic site to learn about standard rugby union. When learnin
 
 ### Features left to implement 
 
+-**Javascript**
+   - To impliment a carousel effect on image groups and reeduce the amount of space used for images. 
+   - Quiz section at the end of each page would need a scripting language like javascript and make all pages more interactive
+
 - **Coaching page**
-   - To layout attaching and defending strategies teams may us to gain the advantage. 
+   - To layout attacking and defending strategies teams can us to gain the advantage. 
 
 - **Video section**
    - Video tutorials for set pieces and open play scenarios. 
 
-- **Quiz section at the end of each page**
-    - Would need a scripting language like javascript.
+## DESIGN  
+
 
 ## TESTING
 
