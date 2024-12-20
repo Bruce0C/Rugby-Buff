@@ -152,7 +152,6 @@ main {
 
 /* History Section */
 .history-container {
-    background-color: none;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -189,7 +188,6 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     padding: 5px;
-    background-color: none;
 }
 
 .world-cup {
@@ -283,7 +281,6 @@ main {
 
 /* Sportsmanship and Ethos section */
 .sportsmanship-container {
-    background-color: none;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
