@@ -6,12 +6,17 @@ The Rugby Buff
 
 The rugby buff is a basic site to learn about standard rugby union. When learning a new sport as a player or a spectator, common questions about the game are asked. “What’s happening and why” being chief among them. Without going into intricate detail and confusing the user, this site will only cover the roles of players and officials. Giving a basic understanding of the pitch and the rules and laws that form the sport. So as to not include too much detail the site will act as a sign post to the up to date laws and regulations of the sport.
 
+![Image of the website om multiple device sizes](./assets/images/home-screens.jpg)
 ## FEATURES
 
  ### Existing features
  - **Navigation Bar** 
     - This is used on all four pages to allow the user to easily move through the site.
-    ![Image of the navigavigation bar for tablet and larger device sizes]()
+    ![Image of the navigavigation bar for tablet and larger device sizes](./assets/images/header-navbar.jpg)
+
+- **Footer**
+      - this includes links for the user to visit the social media pages of the site.
+      ![Image of the footer](./assets/images/footer.jpeg)
  - **Home page**
    - History section- Brief history about the sport and how rugby was invented. 
 
