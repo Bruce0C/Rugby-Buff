@@ -314,6 +314,8 @@ main {
     text-align: center;
     flex: 1 20 100px;
     box-shadow: 0 8px 16px 0 #00000041;
+    max-height: 400px;
+    max-width: 400px;
 }
 
 /* Card system section */
