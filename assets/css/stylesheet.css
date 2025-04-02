@@ -241,6 +241,8 @@ main {
     width: 70%;
     object-fit: scale-down;
     border-radius: 5%;
+    max-height: 500px;
+    max-width: 500px;
 }
 
 /* Card layout*/
