@@ -260,6 +260,7 @@ main {
     flex: 1 0 200px;
     margin: 10px;
     background-color: #3a3a3a44;
+    background-color: #1340715a;
 }
 
 .card-text {
@@ -301,11 +302,11 @@ main {
 }
 
 .logo-card {
+    border-radius: 10px;
     text-align: center;
-    display: flex;
+    flex: 1 0 200px;
+    margin: 10px;
     background-color: #1340715a;
-    max-width: 300px;
-    max-height: 300px;
 }
 
 .logo-link {
