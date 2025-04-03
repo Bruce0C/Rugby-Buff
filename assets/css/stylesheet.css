@@ -119,8 +119,11 @@ h1 {
 
 }
 
-.title {
+.long-title {
+    display: inline-block;  
+}
 
+.title {
     display: inline-block;
     width: 30%;
 }
