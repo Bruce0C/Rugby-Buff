@@ -284,7 +284,7 @@ Steps to test:
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 375px
 4. Set the zoom to 92%
-5.  Click and drag the responsive window to maximum width.
+5. Click and drag the responsive window to maximum width.
 
 Results:
 
@@ -295,7 +295,7 @@ Results:
 **Obstacles**
    - When testing the method of using a carousel with a hidden overflow, the images did not react as expected when using different browser. The main problem the site encountered after pushing the code was that the images would morph slightly out of shape and move outside of the sections boundaries when viewed on the Safari browser. A simple solution to this problem would be to include the use of the Javascript coding language. For this reason a simple card layout was used as it guaranteed the images were visible on all browsers and device sizes.
 
-   - Due to the size of the assets the site began to slow down and get a low performance score on Lighthouse. to address this, all images were resized, compressed and converted to improve the sites performance.   
+   - Due to the size of the assets the site began to slow down and get a low performance score on Lighthouse. To address this, all images were resized, compressed and converted into "jpeg" files in order to improve the sites performance.   
 
 ## DEPLOYMENT
 
@@ -335,6 +335,7 @@ Navigate to the GitHub Repository you want to clone to use locally:
 - Type git clone copied-git-url into the IDE terminal
 - The project will now have been cloned on your local machine for use.
 
+## Credits
 
 **CONTENT**
 * Content for all pages was from <a href="https://www.world.rugby/" target="about_blank">World rugby</a> and the Rugby Football Union website. 
@@ -344,4 +345,3 @@ Navigate to the GitHub Repository you want to clone to use locally:
 
 **MEDIA**
 Images were taken from <a href="https://www.pexels.com/" target="about_blank">Pexels</a> and edited using <a href="https://procreate.com/" target="about_blank">Procreate</a> to better suit the website. 
-
