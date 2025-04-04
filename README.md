@@ -102,9 +102,7 @@ Kit
 - [WAVE](#wave)
 - [LightHouse](#lighthouse)
 - [Browser Compatibility](#browser-compatibility)
-- [Responsiveness](#responsivity)
-- [Issues/ Bugs Found & Resolved](#issues-bugs)
-- [Unresolved](#unresolved)
+- [Responsiveness](#Responsiveness)
 
 ### Functional Testing
 
@@ -187,13 +185,9 @@ Kit page
 
 ![CSS Validator Kit Page](assets/images/kit-css-validator.jpeg)
 
-
 </details>
 
-
 ## WAVE
-
----
 
 [WAVE](https://wave.webaim.org/)
 
@@ -207,7 +201,7 @@ Accessibility standards were checked using WAVE WebAIM
 ![Laws Wave test ](assets/images/laws-wave-test.jpeg)
 ![Kit Wave test ](assets/images/kit-wave-test.jpeg)
 
-One error was registered by WAVE WebAIM, this was due to an empty form label in the navigation bar. as the navigation bar is included in all pages the same error occurred on all ages. as this label is used for the burger icon, there is no need for the label to contain content for the label to function as expected.
+One error was registered by WAVE WebAIM, this was due to an empty form label in the navigation bar. As the navigation bar is included in all pages the same error occurred on all pages. This label is used for the burger icon, there is no need for the label to contain content for the label to function as expected.
 
 Testing was focused to ensure the following criteria were met:
 
@@ -219,10 +213,7 @@ Testing was focused to ensure the following criteria were met:
 
 </details>
 
-
 ## LightHouse
-
----
 
 Lighthouse was accessed through Developer Tools in Chrome and used to analyse:
 
@@ -236,13 +227,12 @@ Lighthouse was accessed through Developer Tools in Chrome and used to analyse:
 <summary>Homepage</summary>
 
 ![Home lighthouse test](assets/images/index-lighthouse-test.jpeg)
-
 </details>
+
 <details>
 <summary>How to play page</summary>
 
 ![Quiz lighthouse test](assets/images/how—to-play-lighthouse-test.jpeg)
-
 </details>
 
 
@@ -250,28 +240,19 @@ Lighthouse was accessed through Developer Tools in Chrome and used to analyse:
 <summary>Laws</summary>
 
 ![Home lighthouse test](assets/images/law-lighthouse-test.jpeg)
-
 </details>
 
 <details>
 <summary>Kit</summary>
 
 ![Home lighthouse test](assets/images/kit-lighthouse-test.jpeg)
-
 </details>
 
 ## Browser Compatibility
 
----
-
 This website was tested on Chrome and Safari for desktop. The website was also tested on Safari for an iPhone and iPad, Macbook 
 
-## Responsiveness 
-
----
-
-
-### Responsiveness
+## Responsiveness
 
 All pages were tested to ensure responsiveness on screen sizes from 375px and upwards.
 
@@ -295,7 +276,7 @@ Responsiveness was tested through Chrome Developer tools. The devices tested inc
 - Nest Hub
 - Nest Hub Max
 
-I was able to directly test the website on an iPhone 12, iPad 12 , Macbook and an HP M22f (21.5") screen .
+I was able to directly test the website on an iPhone 12, iPad 12, Macbook and an HP M22f (21.5") screen.
 
 Steps to test:
 
@@ -310,24 +291,6 @@ Results:
 - The website was responsive on all screen sizes.
 -  No horizontal scroll was present.
 -  No elements overlapped
-
-
-### Validator testing
-**Html** 
-   - W3C Validator 
-     - No errors found
-
-**CSS**
-   - (Jigsaw) validator 
-     - 1 error found
-
-When testing responsiveness through different device sizes, all pages on the are fully responsive to suit the device size. From the navigation bar in the header to the layout of the images, sections and text. After the site was deployed, the devices used to test responsiveness were...
-
--  Iphone 13
--  Macbook 
--  Ipad
-
-All pages responded as expected.
 
 **Obstacles**
    - When testing the method of using a carousel with a hidden overflow, the images did not react as expected when using different browser. The main problem the site encountered after pushing the code was that the images would morph slightly out of shape and move outside of the sections boundaries when viewed on the Safari browser. A simple solution to this problem would be to include the use of the Javascript coding language. For this reason a simple card layout was used as it guaranteed the images were visible on all browsers and device sizes.
